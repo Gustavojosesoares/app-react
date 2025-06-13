@@ -1,5 +1,3 @@
-// services/api.js
-
 export const getPlayerByName = async (playerName) => {
   try {
     const url = `https://www.thesportsdb.com/api/v1/json/3/searchplayers.php?p=${encodeURIComponent(playerName)}`;

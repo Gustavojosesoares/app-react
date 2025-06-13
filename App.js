@@ -1,5 +1,3 @@
-// App.js
-
 import React, { useEffect, useState } from 'react';
 import {
   StyleSheet, Text, View, FlatList, ActivityIndicator,
@@ -7,7 +5,7 @@ import {
 } from 'react-native';
 
 import PlayerCard from './components/PlayerCard';
-import { getPlayerByName } from './services/api'; // <-- agora busca pelo nome
+import { getPlayerByName } from './services/api'; 
 import { loadFavorites, saveFavorites } from './storage/favorites';
 
 export default function App() {
